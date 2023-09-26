@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: #05003b;
+  display: flex;
+  flex-direction: row;
+}
+.h-title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  margin: 7px 20px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.btn {
+  border: 0;
+  background-color: #05003b;
+  color: #fff;
+}
